@@ -1,0 +1,114 @@
+@charset "utf-8";
+
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+* {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html {
+	-moz-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	text-size-adjust: 100%;
+    
+    font-size: 100%;
+}
+
+img {
+	width: 100%;
+    display: block;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f8cb9d;
+}
+
+
+.sale {
+    overflow: hidden;
+    height: 6rem;
+    background-color: black;
+}
+
+.logo {
+    position: relative;
+    top: 2rem;
+    background-color: #965576;
+    align-content: center;
+    padding: .3rem;
+    height: 4rem;
+}
+
+header {
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+}
+
+.hamburger {
+    position: fixed;
+    top: 3rem;
+    left: -10rem;
+    height: 1.8rem;
+}
+
+header p {
+    position: fixed;
+    top: -.6rem;
+    left: 0;
+    right: 0;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Roboto Condensed, Helvetica, sans-serif;
+    color: white;
+}
+
+.billboard {
+    overflow: hidden;
+    background-image: url(../images/billboard.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 30rem;
+}
+
+h1 {
+    font-family: Roboto Condensed, Helvetica, sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 3rem;
+    line-height: 2.9rem;
+    margin: 12rem 10%;
+    padding: 0;
+}
+
+h3 {
+    background-color: #fceeef;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: Roboto Condensed, Helvetica, sans-serif;
+    text-transform: uppercase;
+    border: solid .2rem;
+    border-color: black;
+    margin: .5rem 10% .5rem 10%;
+    padding: .2rem;
+}
+
+
+
+
+
+
+
+
+
+
