@@ -26,6 +26,12 @@ img {
     display: block;
 }
 
+a,
+a:link,
+a:visited {
+    text-decoration: none;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -74,11 +80,12 @@ header p {
 }
 
 .billboard { /* how do you make span when make big */
+    margin: 6rem 0 0 0;
     overflow: hidden;
     background-image: url(../images/billboard.jpg);
     background-repeat: no-repeat;
     background-position: center center;
-    height: 30rem;
+    background-size: 100%;
 }
 
 h1 {
@@ -87,29 +94,31 @@ h1 {
     text-transform: uppercase;
     font-size: 3rem;
     line-height: 2.9rem;
-    margin: 12rem 10%;
+    margin: 20% 10%;
     padding: 0;
 }
 
-figure {
+.buckets figure {
     margin: 0;
     padding: 0;
-    width: 100%;
 }
 
-figcaption {
+.buckets figcaption {
     font-family: Roboto Condensed, Helvetica, sans-serif;
     font-size: 1.5rem;
+    line-height: 1.7rem;
     font-style: bold;
-    text-decoration: none;
     text-transform: uppercase;
     color: #fceeef;
+    border: .25rem solid #fceeef;
+    position: relative;
+    text-align: center;
 }
 
 .type1 {
-    position: relative;
-    left: 60%;
-    bottom: 6rem;
+    width: 6rem;
+    left: 65%;
+    bottom: 11rem
 }
 
 .type2 {
