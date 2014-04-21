@@ -89,7 +89,7 @@ header p {
 }
 
 h1 {
-    font-family: Roboto Condensed, Helvetica, sans-serif;
+    font-family: Roboto Condensed, Helvetica condensed, sans-serif;
     text-align: center;
     text-transform: uppercase;
     font-size: 3rem;
