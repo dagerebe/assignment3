@@ -111,32 +111,32 @@ h1 {
     text-transform: uppercase;
     color: #fceeef;
     border: .25rem solid #fceeef;
-    position: relative;
+    position: absolute;
     text-align: center;
 }
 
 .type1 {
     width: 6rem;
-    left: 65%;
+    left: 6%;
     bottom: 11rem
 }
 
 .type2 {
-    position: relative;
-    left: 10%;
-    bottom: 6rem;
+    width: 6rem;
+    left: 64%;
+    top: 47rem;
 }
 
 .type3 {
-    position: relative;
-    left: 60%;
-    bottom: 6rem;
+    width: 8rem;
+    left: 6%;
+    top: 62rem;
 }
 
 .type4 {
-    position: relative;
-    left: 10%;
-    bottom: 6rem;
+    width: 7rem;
+    left: 64%;
+    top: 81rem;
 }
 
 
