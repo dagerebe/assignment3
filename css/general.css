@@ -129,7 +129,8 @@ header {
 }
 
 .billboard { 
-    margin: 5rem 0 0;
+    margin: 2rem 0 0;
+    padding: 4rem 0;
     overflow: hidden;
     background-image: url(../images/billboard.jpg);
     background-repeat: no-repeat;
@@ -336,8 +337,8 @@ footer img:nth-child(2) {
 }
 
 .products {
-    margin: 5rem 0 0;
-    padding: 0 20%;
+    margin: 2rem 0 0;
+    padding: 4rem 20% 1rem;
     overflow: hidden;
     background-color: #fceeef; 
 }
