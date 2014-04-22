@@ -130,7 +130,7 @@ header {
 
 .billboard { 
     margin: 2rem 0 0;
-    padding: 4rem 0;
+    padding: 4rem 0 0;
     overflow: hidden;
     background-image: url(../images/billboard.jpg);
     background-repeat: no-repeat;
