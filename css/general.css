@@ -121,6 +121,7 @@ header {
 .topsale p {
     margin: .4rem;
     text-align: center;
+    font-size: .8rem;
     text-transform: uppercase;
     font-family: Roboto Condensed, Helvetica, sans-serif;
     color: white;
@@ -146,6 +147,7 @@ header {
 
 .bucket2 {
     margin: 0;
+    padding: 0;
     overflow: hidden;
     background-image: url(../images/jacket.jpg);
     background-position: center center;
@@ -182,6 +184,22 @@ h1 {
     padding: 0;
 }
 
+.bucket1 h3 {
+    width: 6rem;
+}
+
+.bucket2 h4 {
+    width: 6rem;
+}
+
+.bucket3 h3 {
+    width: 10rem;
+}
+
+.bucket4 h4{
+    width: 9rem;
+}
+
 h2 {
     font-family: Roboto Condensed, Helvetica, sans-serif;
     text-transform: uppercase;
@@ -204,7 +222,7 @@ h3 {
     left: 5%;
     float: left;
     text-align: center;
-    width: 10rem;
+    line-height: 1.8rem;
 }
 
 h4 {
@@ -220,7 +238,7 @@ h4 {
     right: 5%;
     float: right;
     text-align: center;
-    width: 7rem;
+    line-height: 1.8rem;
 }
 
 .dropcap:first-letter {
