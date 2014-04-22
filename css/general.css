@@ -45,7 +45,7 @@ body {
 header {
     background-color: #965576;
     overflow: hidden;
-    position: fixed
+    position: fixed;
     left: 0;
     right: 0;
 }
@@ -54,7 +54,6 @@ header {
     display: block;
     width: 9rem;
     margin: 2rem 35% .5rem;
-    float: center;
 }
 
 .nav-btn,
