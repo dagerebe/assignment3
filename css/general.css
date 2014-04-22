@@ -186,7 +186,7 @@ h1 {
     font-size: 2rem;
     line-height: 2rem;
     margin: 20% 10%;
-    padding: 0;
+    padding: 0 0 2rem 0;
 }
 
 .bucket1 h3 {
@@ -338,7 +338,7 @@ footer img:nth-child(2) {
 
 .products {
     margin: 2rem 0 0;
-    padding: 4rem 20% 1rem;
+    padding: 4rem 20% 0;
     overflow: hidden;
     background-color: #fceeef; 
 }
