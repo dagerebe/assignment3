@@ -143,10 +143,26 @@ header {
     background-size: 100%;
 }
 
-.bucket1 {
+.bucket2 {
     margin: 0;
     overflow: hidden;
     background-image: url(../images/jacket.jpg);
+    background-position: center center;
+    background-size: 100%;
+}
+
+.bucket3 {
+    margin: 0;
+    overflow: hidden;
+    background-image: url(../images/legscompany.jpg);
+    background-position: center center;
+    background-size: 100%;
+}
+
+.bucket4 {
+    margin: 0;
+    overflow: hidden;
+    background-image: url(../images/dresses.jpg);
     background-position: center center;
     background-size: 100%;
 }
@@ -171,33 +187,37 @@ h2 {
     font-weight: 400;
 }
 
-.2 {
-    margin: 4rem 0;
-    padding: .2rem;
-    position: relative;
-    left: 5%;
-    float: left;
-}
-
-.3 {
-    top: 20rem;
-    margin: 4rem 0;
-    padding: .2rem;
-    position: relative;
-    left: 5%;
-    float: left;
-}
-
 h3 {
+    margin: 4rem 0;
+    padding: .2rem;
     font-family: Roboto Condensed, Helvetica, sans-serif;
     font-size: 1.5rem;
     text-transform: uppercase;
     color: #fceeef;
     border: .25rem solid #fceeef;
     font-weight: 500;
+    position: relative;
+    left: 5%;
+    float: left;
     text-align: center;
+    width: 10rem;
 }
 
+h4 {
+    margin: 4rem 0;
+    padding: .2rem;
+    font-family: Roboto Condensed, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    color: #fceeef;
+    border: .25rem solid #fceeef;
+    font-weight: 500;
+    position: relative;
+    right: 5%;
+    float: right;
+    text-align: center;
+    width: 7rem;
+}
 
 .dropcap:first-letter {
     font-family: Roboto Condensed, Helvetica, sans-serif;
