@@ -98,6 +98,15 @@ h1 {
     padding: 0;
 }
 
+h2 {
+    font-family: Roboto Condensed, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-size: 2rem;
+    margin: 2rem 5% .5rem;
+    text-align: center;
+    font-style: light;
+}
+
 .buckets figure {
     margin: 0;
     padding: 0;
@@ -136,6 +145,18 @@ h1 {
     width: 7rem;
     left: 64%;
     top: 81rem;
+}
+
+p {
+    margin: 0 5%;
+}
+.dropcap:first-letter {
+    font-family: Roboto Condensed, Helvetica, sans-serif;
+    font-size: 4.3rem;
+    font-weight: bold;
+    float: left;
+    margin: -1.3rem 2% -2rem 0;
+    color: #965576;
 }
 
 footer {
