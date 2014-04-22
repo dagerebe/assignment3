@@ -179,7 +179,7 @@ h1 {
     text-align: center;
     text-transform: uppercase;
     font-size: 2rem;
-    line-height: 2.9rem;
+    line-height: 2rem;
     margin: 20% 10%;
     padding: 0;
 }
@@ -332,13 +332,13 @@ footer img:nth-child(2) {
 }
 
 .products {
-    margin: 6rem 0 0 0;
+    margin: 0;
     padding: 0 20%;
     overflow: hidden;
     background-color: #fceeef; 
 }
 
-.salesale {
+.products h1 {
     font-size: 4rem;
     line-height: 4rem;
     margin: 1rem 0;
@@ -348,7 +348,7 @@ footer img:nth-child(2) {
     margin: 5%;
 }
 
-summary {
+h5 {
     font-family: Roboto Condensed, Helvetica, sans-serif;
     text-transform: uppercase;
     margin: .5rem 0 1.5rem 0;
@@ -361,7 +361,7 @@ summary {
     font-family: Roboto Condensed, Helvetica, sans-serif;
     font-weight: 100;
     text-align: center;
-    margin: -1.5rem 6% 1.5rem 0;
+    margin: -1.5rem 12% 1.5rem 0;
     line-height: 2rem;
     list-style: none;
 }
