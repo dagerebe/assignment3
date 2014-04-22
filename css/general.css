@@ -141,6 +141,7 @@ header {
     background-image: url(../images/bottoms.jpg);
     background-position: center center;
     background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 .bucket2 {
@@ -149,6 +150,7 @@ header {
     background-image: url(../images/jacket.jpg);
     background-position: center center;
     background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 .bucket3 {
@@ -157,6 +159,7 @@ header {
     background-image: url(../images/legscompany.jpg);
     background-position: center center;
     background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 .bucket4 {
@@ -165,6 +168,7 @@ header {
     background-image: url(../images/dresses.jpg);
     background-position: center center;
     background-size: 100%;
+    background-repeat: no-repeat;
 }
         
 
