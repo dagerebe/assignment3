@@ -167,6 +167,7 @@ h2 {
     text-transform: uppercase;
     color: #fceeef;
     border: .25rem solid #fceeef;
+    font-weight: 500;
     position: absolute;
     text-align: center;
 }
@@ -174,25 +175,25 @@ h2 {
 .type1 {
     width: 6rem;
     left: 6%;
-    bottom: 11rem
+    bottom: 11.5rem
 }
 
 .type2 {
     width: 6rem;
     left: 64%;
-    top: 47rem;
+    top: 44rem;
 }
 
 .type3 {
     width: 8rem;
     left: 6%;
-    top: 62rem;
+    top: 59.5rem;
 }
 
 .type4 {
     width: 7rem;
     left: 64%;
-    top: 81rem;
+    top: 78rem;
 }
 
 .dropcap:first-letter {
@@ -255,7 +256,7 @@ footer {
     overflow: hidden;
     background-color: #965576;
     margin: 0;
-    padding: 1rem 16%;
+    padding: 1rem 13%;
 }
 
 footer p {
@@ -268,7 +269,7 @@ footer p {
 }
 
 .rights {
-    margin: 11rem 0;
+    margin: 8rem 0;
     font-size: .75rem;
     font-weight:100;
 }
@@ -328,13 +329,3 @@ figure {
 figcaption {
     padding: 1%;
 }
-
-
-
-
-
-
-
-
-
-
