@@ -2,7 +2,7 @@
 <html lang="en-ca">
 <head>
 	<meta charset="utf-8">
-	<title>Timesless Fashion</title>
+	<title>Timeless Fashion</title>
 	<meta name="viewport" content="width=device-width,initial-scale=1">
     <link href="css/general.css" rel="stylesheet">
 </head>
@@ -10,14 +10,21 @@
     
     <header class="sale">
         
-        <p>Free shipping on all overs over $50</p>
+        <p class="topsale">Free shipping on all overs over $50</p>
         
           <a href="index.html">
              <img class="logo" src="images/whitelogo.svg" alt="timeless fashion logo">
         </a>
         
-        <img class="hamburger" src="images/hamburger.svg" alt="navigation">
+        <a href="#nav" class="nav-btn" data-state="inactive">Navigate</a>
         
+        <nav class="nav-top">	
+            <ul>
+				<li><a href="products.html">Products</a></li>
+				<li><a href="company.html">Company</a></li>
+			</ul>
+        </nav>
+            
     </header>
 
     <div class="products">
@@ -25,32 +32,43 @@
     </div>
     
     <article>  
-        
-        <details>
-            <summary>Click on the left arrow to reveal content</summary>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur condimentum rutrum nulla, eu luctus</p>
+            <div class="productpics">
+                
+                <img src="images/shirts.jpg" alt="girl in purple shirt">
+                <details>
+            <summary>Tops</summary>
+                <ul class="list">
+                    <li>Lady Tank</li>
+                    <li>Graphic T</li>
+                </ul>
+        </details>
+            
+                <img src="images/bottoms.jpg" alt="girl and guys legs">
+                <details>
+            <summary>Bottoms</summary>
+                <ul class="list">
+                    <li>Love Skirt</li>
+                    <li>Boyfriend Pants</li>
+                </ul>
         </details>
         
-            <figure>
-                <img src="images/bottoms.jpg" alt="girl and guys legs">
-                <figcaption class="type1">Fab Spring Looks</figcaption>
-            </figure>
-            
-            
-            <figure class="bucket2">
-                <img src="images/jacket.jpg" alt="girl in leather jacket">
-                <figcaption class="type2">Never Out of Style</figcaption>
-            </figure>
-        
-            <figure class="bucket3">
-                <img src="images/legscompany.jpg" alt="girls legs with tights on">
-                <figcaption class="type3">Learn About Our Company</figcaption>
-            </figure>
-        
-            <figure class="bucket4">
                 <img src="images/dresses.jpg" alt="girl in dress">
-                <figcaption class="type4">Dresses of the Season</figcaption>
-            </figure>
+                <details>
+            <summary>Dresses</summary>
+                    <ul class="list">
+                    <li>Classy Lover</li>
+                    <li>Sunkissed Halter</li>
+                </ul>
+        </details>
+        
+                <img src="images/jacket.jpg" alt="girl in leather jacket">
+                <details>
+            <summary>Outerwear</summary>
+        <ul class="list">
+                    <li>Breezy Blazzer</li>
+                    <li>Army Trench</li>
+                </ul>
+        </details>
             
         </div>
         
