@@ -46,6 +46,7 @@ header {
     background-color: #965576;
     overflow: hidden;
     position: fixed;
+    top: 0;
     left: 0;
     right: 0;
 }
@@ -127,7 +128,7 @@ header {
 }
 
 .billboard { 
-    margin: 0;
+    margin: 8rem 0 0;
     overflow: hidden;
     background-image: url(../images/billboard.jpg);
     background-repeat: no-repeat;
@@ -137,6 +138,7 @@ header {
 
 .bucket1 {
     margin: 0;
+    padding: 0;
     overflow: hidden;
     background-image: url(../images/bottoms.jpg);
     background-position: center center;
@@ -156,6 +158,7 @@ header {
 
 .bucket3 {
     margin: 0;
+    padding: 0;
     overflow: hidden;
     background-image: url(../images/legscompany.jpg);
     background-position: center center;
@@ -165,6 +168,7 @@ header {
 
 .bucket4 {
     margin: 0;
+    padding: 0;
     overflow: hidden;
     background-image: url(../images/dresses.jpg);
     background-position: center center;
@@ -331,7 +335,7 @@ footer img:nth-child(2) {
 }
 
 .products {
-    margin: 0;
+    margin: 8rem 0 0;
     padding: 0 20%;
     overflow: hidden;
     background-color: #fceeef; 
@@ -372,4 +376,8 @@ figure {
 
 figcaption {
     padding: 1%;
+}
+
+.margin {
+    margin: 0 5%;
 }
