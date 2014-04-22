@@ -32,6 +32,51 @@ a:visited {
     text-decoration: none;
 }
 
+.nav-btn,
+.nav-btn:link,
+.nav-btn:visited {
+	height: 1.8rem;
+	overflow: hidden;
+    position: fixed;
+    top: 3rem;
+    left: 2rem;
+	background: transparent url("../images/hamburger.svg") no-repeat 0 0;
+	text-indent: 100%;
+	white-space: nowrap; 
+}
+
+.nav-top {
+	max-height: 0; /* makess invisible by default */
+    background-color: black;
+    
+    /* Animation on open */
+
+	-moz-transition: all 250ms linear;
+	-o-transition: all 250ms linear;
+	-webkit-transition: all 250ms linear;
+	transition: all 250ms linear;
+}
+
+.nav-top[data-state="expanded"] {
+	max-height: 14em; /* max height of dropdown */
+}
+
+.nav-top ul { 
+	margin: 0;
+    padding: 1.5rem 0;
+    list-style-type: none;
+}
+
+.nav-top a,
+.nav-top a:link,
+.nav-top a:visited {
+	display: block;
+	font-size: 1.25em;
+    padding: .875rem 5%;
+	color: white;
+	text-decoration: none;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -61,12 +106,6 @@ header {
     top: 0;
 }
 
-.hamburger {
-    position: fixed;
-    top: 3rem;
-    left: -10rem;
-    height: 1.8rem;
-}
 
 header p {
     position: fixed;
@@ -203,6 +242,25 @@ hr {
     border: solid .1rem;
 }
 
+details {
+    margin: 0 0 1.5rem;
+}
+
+dl {
+    margin: 0 0 1.5rem;
+}
+
+dt {
+    margin: 0;
+    font-weight:bold;
+}
+
+dd {
+    margin: 0 0 1.5rem 10%;
+    color: red;
+}
+
+
 footer {
     overflow: hidden;
     background-color: f8cb9d;
@@ -223,6 +281,8 @@ footer p{
     font-size: .75rem;
 }
 
+
+
 footer img {
     width: 6rem;
     float: left;
@@ -233,6 +293,19 @@ footer img {
 footer img:nth-child(2) {
     float:right;
     margin: .5rem 8% 0 0;
+}
+
+.products {
+    margin: 6rem 0 0 0;
+    padding: 0 20%;
+    overflow: hidden;
+    background-color: #fceeef; 
+}
+
+.salesale {
+    font-size: 4rem;
+    line-height: 4rem;
+    margin: 1rem 0 1rem 0;
 }
 
 
