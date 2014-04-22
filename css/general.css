@@ -49,6 +49,7 @@ header {
     top: 0;
     left: 0;
     right: 0;
+    z-index: 100;
 }
 
 .logo {
@@ -128,7 +129,7 @@ header {
 }
 
 .billboard { 
-    margin: 8rem 0 0;
+    margin: 5rem 0 0;
     overflow: hidden;
     background-image: url(../images/billboard.jpg);
     background-repeat: no-repeat;
@@ -335,7 +336,7 @@ footer img:nth-child(2) {
 }
 
 .products {
-    margin: 8rem 0 0;
+    margin: 5rem 0 0;
     padding: 0 20%;
     overflow: hidden;
     background-color: #fceeef; 
