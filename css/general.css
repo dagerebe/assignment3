@@ -159,15 +159,17 @@ footer p{
 }
 
 footer img {
-    width: 7rem;
+    width: 6rem;
     float: left;
     align-content: center;
-    margin: .5rem 9% 1.5rem 4%;
+    margin: .5rem 0 0 8%;
 }
 
 footer img:nth-child(2) {
-    margin: .5rem 0 0 10%;
+    float:right;
+    margin: .5rem 8% 0 0;
 }
+
 
 
 
