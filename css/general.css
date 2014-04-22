@@ -142,7 +142,7 @@ h1 {
     text-transform: uppercase;
     font-size: 3rem;
     line-height: 2.9rem;
-    margin: 20% 0 30% 0;
+    margin: 20% 10%;
     padding: 0;
 }
 
@@ -229,7 +229,7 @@ blockquote p:before {
     font-size: 6rem;
     color: #965576;
     float: left;
-    margin: -1.7rem 1% 0 -12%;
+    margin: -1.65rem 1% 5rem -12%;
     font-family: Lusitana, Times, serif; 
 }
 
