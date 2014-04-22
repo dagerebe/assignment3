@@ -373,11 +373,11 @@ h5 {
 
 figure {
     background-color: #fceeef; 
-    margin: 5%;
+    margin: 5% 0;
 }
 
 figcaption {
-    padding: 1%;
+    padding: .3rem 3%;
 }
 
 .margin {
