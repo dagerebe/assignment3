@@ -48,7 +48,7 @@ nav {
 	overflow: hidden;
     position: fixed;
     top: 3rem;
-    left: 2rem;
+    left: 1rem;
 	background: transparent url("../images/hamburger.svg") no-repeat 0 0;
 	text-indent: 100%;
 	white-space: nowrap; 
@@ -211,36 +211,44 @@ blockquote {
 }
 
 blockquote p {
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-family: Roboto Condensed, Helvetica, sans-serif;
-    font-weight: 400;
+    font-weight: 800;
 }
 
 blockquote span {
-    font-weight: 400;
+    font-weight: 100;
     float :right;
-    margin: .25rem 0;
+    margin: .6rem 0;
     font-style: italic;
+    font-size: 1.4rem;
 }
 
 blockquote p:before {
     content: "“";
-    font-size: 8rem;
+    font-size: 6rem;
     color: #965576;
     float: left;
-    margin: -2rem 2% 0 -2.5rem;
+    margin: -1.7rem 1% 0 -12%;
+    font-family: Lusitana, Times, serif; 
 }
 
 blockquote p:after {
     content: "”";
     font-size: 2rem;
+    margin: -.4rem 0 0 0;
     position: absolute;
     color: #965576;
+    font-family: Lusitana, Times, serif; 
 }
 
 hr {
-    margin: 1rem 5% 1rem ;
+    margin: 1rem 12%;
     border: solid .1rem;
+}
+
+.hr2 {
+    margin: 2.5rem 12%;
 }
 
 footer {
@@ -297,6 +305,7 @@ footer img:nth-child(2) {
 summary {
     font-family: Roboto Condensed, Helvetica, sans-serif;
     text-transform: uppercase;
+    margin: .5rem 0 1.5rem 0;
     font-size: 1.5rem;
     font-weight: 600;
     text-align: center;
@@ -306,7 +315,8 @@ summary {
     font-family: Roboto Condensed, Helvetica, sans-serif;
     font-weight: 100;
     text-align: center;
-    margin: .5rem 6% 1.5rem 0;
+    margin: -1.5rem 6% 1.5rem 0;
+    line-height: 2rem;
     list-style: none;
 }
 
